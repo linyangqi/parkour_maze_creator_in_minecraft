@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:quartz_bricks",
+    "minecraft:stone_bricks",
+    "minecraft:deepslate_tiles",
+	"minecraft:nether_bricks",
+	"minecraft:red_nether_bricks",
+	"minecraft:end_stone_bricks",
+	"minecraft:dark_prismarine",
+	"minecraft:light_gray_stained_glass",
+	"#minecraft:doors"
+  ]
+}

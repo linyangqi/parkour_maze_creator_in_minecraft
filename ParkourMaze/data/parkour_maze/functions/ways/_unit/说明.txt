@@ -1,0 +1,12 @@
+见data\parkour_maze\tags\blocks
+这里有
+方块三种：无tag，path的tag，bedrock的tag
+无tag的创造迷宫时会穿过，自由生成路线空间与垫脚方块
+path相当于迷宫里的路线空间，不会在这里生成垫脚方块
+bedrock便是不可穿越的方块，或者生成迷宫时节点垫脚
+
+目前path有：结构空位，梯子，蜘蛛网（然而后两种目前暂未设计成路线）
+bedrock有：bedrock，屏障，石砖
+
+
+/execute if block ~ ~-1 ~ #parkour_maze:bedrock

@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:bedrock",
+    "minecraft:air",
+	"minecraft:barrier",
+	"minecraft:command_block",
+	"minecraft:lava",
+	"#parkour_maze:step",
+	"#parkour_maze:wall"
+	
+  ]
+}

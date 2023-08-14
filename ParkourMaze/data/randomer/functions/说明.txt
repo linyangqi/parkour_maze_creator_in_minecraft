@@ -1,0 +1,10 @@
+参考Dahesor发的贴子
+https://www.mcbbs.net/thread-1178742-1-1.html
+
+_(:3JZ)_（我是林扬骐）
+随机0~max的整数（共max+1种数）
+scoreboard players set max randomer 99
+function randomer:run
+分数存到result里
+
+emmm理论上还可以各实体的随机数来着……不过俺暂时用不上，先做成这样吧

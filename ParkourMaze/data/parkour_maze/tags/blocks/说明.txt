@@ -1,0 +1,7 @@
+bedrock 不可逾越的方块，也包含step与wall
+step：每一步的落脚点
+wall：围墙
+path：表示已经使用的空路径（？）
+point：计分点（这个tag不怎么实际用）
+
+
