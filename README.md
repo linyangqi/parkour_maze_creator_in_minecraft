@@ -4,7 +4,14 @@
 
 ## Info
 It's a datapack that can easily construct parkour-maze for you. You may use it in your map project, play with your friends, or just have fun for yourself~ ;)
-(It almost only include functions, no loot table, no recipes, just commands.)
+
+Licensed under ![Apache-2.0 license](LICENSE) , so feel free to use it or modify it, even in commercial use!
+
+If you like this datapack, don't forget to leave comment! XD
+
+Have fun!
+
+## Getting started
 
 Show instructions: 
 
@@ -17,9 +24,6 @@ Youtube: https://www.youtube.com/watch?v=Y8vSgmc2Uus
 Bilibili: https://www.bilibili.com/video/BV1g44y1c79h
 
 
-
-If you like this datapack, don't forget to leave comment below! XD
-Have fun!
 
 ## Links
 
