@@ -35,3 +35,9 @@ My twitter: https://twitter.com/lin_yangqi
 My bilibili page: https://space.bilibili.com/24599280
 
 P.MC page:  https://www.planetminecraft.com/data-pack/parkour-maze-creator-0-7-2/
+
+## Gallary
+
+![1](pictures/1.png)
+![2](pictures/2.png)
+![3](pictures/3.png)
