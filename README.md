@@ -34,6 +34,8 @@ My bilibili page: https://space.bilibili.com/24599280
 
 P.MC page:  https://www.planetminecraft.com/data-pack/parkour-maze-creator-0-7-2/
 
+itch.io page: https://linyangqi.itch.io/parkour-maze-creator-mc
+
 ## Gallary
 
 ![1](pictures/1.png)
