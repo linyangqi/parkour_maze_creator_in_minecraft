@@ -45,3 +45,9 @@ itch.io page: https://linyangqi.itch.io/parkour-maze-creator-mc
 ![3](pictures/3.png)
 
 ![4](pictures/4.png)
+
+
+## Warning
+This datapack still need practice. Some impossible-to-pass ways may still occur (such as the 3-block jump with only 3bc)
+
+If possible, please put issues to show "impossible ways" that occured when generating your parkour-maze. I might be busy, but I will try to fix them when I have enough time.
