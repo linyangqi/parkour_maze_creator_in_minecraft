@@ -4,12 +4,20 @@ execute as @e[tag=path,tag=hit,tag=maze] at @s if block ~ ~ ~ #parkour_maze:bedr
 
 #flag
 tag @e[tag=new,tag=node,tag=maze,tag=!oneway] add okk
-#单行道
+#单行道（之前死坑bug来源于此，不要偷懒只一格）
 execute as @e[tag=node,tag=new,tag=maze,tag=oneway] at @s align xyz if block ~ ~ ~ #parkour_maze:path run tag @s add okk
-execute as @e[tag=node,tag=new,tag=maze,tag=oneway] at @s align xyz if block ~1 ~1 ~ #parkour_maze:path run tag @s add okk
-execute as @e[tag=node,tag=new,tag=maze,tag=oneway] at @s align xyz if block ~-1 ~1 ~ #parkour_maze:path run tag @s add okk
-execute as @e[tag=node,tag=new,tag=maze,tag=oneway] at @s align xyz if block ~ ~1 ~1 #parkour_maze:path run tag @s add okk
-execute as @e[tag=node,tag=new,tag=maze,tag=oneway] at @s align xyz if block ~ ~1 ~-1 #parkour_maze:path run tag @s add okk
+execute as @e[tag=node,tag=new,tag=maze,tag=oneway] at @s align xyz if block ~1 ~1 ~ #parkour_maze:path if block ~1 ~ ~ #parkour_maze:path run tag @s add okk
+execute as @e[tag=node,tag=new,tag=maze,tag=oneway] at @s align xyz if block ~1 ~1 ~ #parkour_maze:path if block ~1 ~2 ~ #parkour_maze:path run tag @s add okk
+
+execute as @e[tag=node,tag=new,tag=maze,tag=oneway] at @s align xyz if block ~-1 ~1 ~ #parkour_maze:path if block ~-1 ~ ~ #parkour_maze:path run tag @s add okk
+execute as @e[tag=node,tag=new,tag=maze,tag=oneway] at @s align xyz if block ~-1 ~1 ~ #parkour_maze:path if block ~-1 ~2 ~ #parkour_maze:path run tag @s add okk
+
+execute as @e[tag=node,tag=new,tag=maze,tag=oneway] at @s align xyz if block ~ ~1 ~1 #parkour_maze:path if block ~ ~ ~1 #parkour_maze:path run tag @s add okk
+execute as @e[tag=node,tag=new,tag=maze,tag=oneway] at @s align xyz if block ~ ~1 ~1 #parkour_maze:path if block ~ ~2 ~1 #parkour_maze:path run tag @s add okk
+
+execute as @e[tag=node,tag=new,tag=maze,tag=oneway] at @s align xyz if block ~ ~1 ~-1 #parkour_maze:path if block ~ ~ ~-1 #parkour_maze:path run tag @s add okk
+execute as @e[tag=node,tag=new,tag=maze,tag=oneway] at @s align xyz if block ~ ~1 ~-1 #parkour_maze:path if block ~ ~2 ~-1 #parkour_maze:path run tag @s add okk
+
 
 
 #上下空间限制

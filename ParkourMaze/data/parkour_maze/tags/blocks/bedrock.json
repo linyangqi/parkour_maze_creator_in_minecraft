@@ -6,8 +6,11 @@
 	"minecraft:barrier",
 	"minecraft:command_block",
 	"minecraft:lava",
+	"minecraft:chest",
+	"minecraft:dropper",
 	"#parkour_maze:step",
-	"#parkour_maze:wall"
+	"#parkour_maze:wall",
+	"#parkour_maze:point"
 	
   ]
 }
