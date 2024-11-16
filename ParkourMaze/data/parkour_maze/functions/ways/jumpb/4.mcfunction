@@ -16,7 +16,7 @@ execute positioned ^ ^2 ^4 run function parkour_maze:ways/_unit/path
 
 
 
-execute positioned ^ ^2 ^ run function parkour_maze:ways/_unit/path_h
+execute positioned ^ ^2 ^ run function parkour_maze:ways/_unit/path
 
 
 tag @e[tag=node,tag=new] add turnable

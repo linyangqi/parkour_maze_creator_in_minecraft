@@ -21,7 +21,7 @@ execute align xyz run fill ~-4 181 ~-4 ~4 240 ~4 minecraft:white_stained_glass
 execute align xyz run fill ~-5 241 ~-5 ~5 300 ~5 minecraft:light_gray_stained_glass outline
 execute align xyz run fill ~-4 241 ~-4 ~4 300 ~4 minecraft:white_stained_glass
 
-execute align xyz run fill ~-5 301 ~-5 ~5 319 ~5 minecraft:light_gray_stained_glass outline
+execute align xyz run fill ~-5 301 ~-5 ~5 314 ~5 minecraft:light_gray_stained_glass outline
 execute align xyz run fill ~-4 301 ~-4 ~4 318 ~4 minecraft:white_stained_glass
 
 

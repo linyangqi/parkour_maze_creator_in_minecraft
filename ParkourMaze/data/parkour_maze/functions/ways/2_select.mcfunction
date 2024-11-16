@@ -4,7 +4,7 @@
 #随机数配合randomer数据包使用
 #概率修正，尽量保证向上向下都有机会，平动则少一些……大概200+400+500?（向下的虽然多，但成功率低……概率修正后实际应该多留一点）
 
-scoreboard players set mod randomer 1600
+scoreboard players set mod randomer 1200
 function randomer:my
 ####################################################
 #下面的具体数字是凭感觉定的2333
@@ -35,13 +35,6 @@ execute if score @s randomer matches 1020..1099 run function parkour_maze:ways/f
 #1100-1199 蝴蝶跳
 #权值设的高但是实际满足条件要侧下面没有够高的方块才有效，所以大多不会是非蝴蝶不可……
 execute if score @s randomer matches 1100..1199 run function parkour_maze:ways/butterfly/1
-
-#额外给“向上”附加权重
-execute if score @s randomer matches 1200..1219 run function parkour_maze:ways/jump/1
-execute if score @s randomer matches 1220..1349 run function parkour_maze:ways/jump/2
-execute if score @s randomer matches 1350..1489 run function parkour_maze:ways/jump/3
-execute if score @s randomer matches 1490..1599 run function parkour_maze:ways/jump/4
-
 
 #附加的后期
 execute if entity @e[tag=node,tag=new,tag=turnable] run function parkour_maze:ways/3_turn

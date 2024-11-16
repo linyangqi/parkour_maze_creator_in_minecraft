@@ -1,8 +1,4 @@
 #成功者
-#成功则”赎罪“
-scoreboard players remove @s[scores={maze_badchance=1..}] maze_badchance 1
-scoreboard players remove @s[scores={maze_badtime=1..}] maze_badtime 1
-
 
 #后面还有判断碰头块……
 #本来修改主题的话这个应该是要可以修改的……可能只有结束以后才能改了吧？

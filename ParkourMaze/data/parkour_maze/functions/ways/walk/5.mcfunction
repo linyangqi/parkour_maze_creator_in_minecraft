@@ -18,7 +18,7 @@ execute positioned ^ ^ ^5 run function parkour_maze:ways/_unit/path
 execute positioned ^ ^1 ^5 run function parkour_maze:ways/_unit/path
 
 execute positioned ^ ^2 ^5 run function parkour_maze:ways/_unit/path_h
-execute positioned ^ ^2 ^ run function parkour_maze:ways/_unit/path_h
+execute positioned ^ ^2 ^ run function parkour_maze:ways/_unit/path
 
 execute positioned ^ ^-1 ^1 run function parkour_maze:ways/_unit/path_h
 execute positioned ^ ^-1 ^2 run function parkour_maze:ways/_unit/path_h

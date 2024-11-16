@@ -1,10 +1,10 @@
 #失败者
 
 
-#次品清理，且若有次品，则失败次数+2（达到一定次数则认为此路已不通）
+#次品清理，且若有次品，则失败次数+1（达到一定次数则认为此路已不通）
 #失败计数
-scoreboard players add @s maze_badchance 2
-scoreboard players add @s maze_badtime 2
+scoreboard players add @s maze_badchance 1
+scoreboard players add @s maze_badtime 1
 #并清洁
 execute if score @s maze_badchance >= limit maze_badchance run function parkour_maze:tick/cleanb
 
